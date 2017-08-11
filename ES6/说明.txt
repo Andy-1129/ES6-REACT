@@ -1,0 +1,8 @@
+练习  
+ 配置   webpack包和 webpack-dev-server 包和 babel 包
+
+达到的效果：
+
+webpack包：编译压缩文件
+webpack-dev-server 包：实时监控文件  修改后在浏览器中 自动刷新
+babel 包：编译 es6
