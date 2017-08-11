@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+.arrow{
+  font-size: 32px;
+  position: absolute;
+  top:50%;
+  margin-top: 5em;
+  color:#fff;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
+}
+.arrow:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+.left{
+  left: 0;
+}
+.right{
+  right: 0;
+}
