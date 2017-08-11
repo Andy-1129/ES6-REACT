@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #658;
+  /*background: url(./img/bg.jpg);*/
+}
+root{
+  width: 20px;
+  height: 20px;
+  border:1px solid red;
+  padding-bottom: 10px;
+}
+p{
+  font-size: ;
+}
