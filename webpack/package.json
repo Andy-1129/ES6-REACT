@@ -1,0 +1,20 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack -w --colors",
+    "dev": "node_modules/.bin/webpack-dev-server"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "zhaoan",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
