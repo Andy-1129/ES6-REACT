@@ -1,0 +1,36 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack -w --colors",
+    "dev": "node_modules/.bin/webpack-dev-server"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "zhaoan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "jquery": "^3.2.1",
+    "less-loader": "^4.0.3",
+    "postcss-loader": "^2.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
