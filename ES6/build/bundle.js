@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5218bb6511d275177ce0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "72e2c49f78a094fc6cea"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -748,6 +748,7 @@ for (var _i = 0; _i < 3; _i++) {
 var name = 'zfpx',
     age = 8;
 
+
 console.log(name, age); // zfpx 8
 
 var _getVal = getVal(),
@@ -792,7 +793,7 @@ var _hello = 'hello',
     d = _hello2[3],
     e = _hello2[4];
 
-console.log(a + b + c + e); // 'hello'
+console.log(a + d + c + b); // 'hello'
 
 // 3.Arrows 箭头函数 #
 //①箭头函数简化了函数的的定义方式，一般以 "=>" 操作符左边为输入的参数，而右边则是进行的操作以及返回的值Inputs=>outputs。

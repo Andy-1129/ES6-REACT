@@ -21,6 +21,7 @@ for (let i = 0; i < 3; i++) {
 // 2.解构
 //解构意思就是分解一个东西的结构,可以用一种类似数组的方式定义N个变量，可以将一个数组中的值按照规则赋值过去。
 var [name,age] = ['zfpx',8];
+
 console.log(name,age); // zfpx 8
 
 var [x,y]=getVal(),//函数返回值的解构
@@ -46,7 +47,7 @@ console.log(bab);  // "bbb"
 
 // 字符串的解构赋值
 const [a, b, c, d, e] = 'hello';
-console.log(a + b + c + e); // 'hello'
+console.log(a + d + c + b); // 'hello'
 
 // 3.Arrows 箭头函数 #
 //①箭头函数简化了函数的的定义方式，一般以 "=>" 操作符左边为输入的参数，而右边则是进行的操作以及返回的值Inputs=>outputs。
