@@ -65,6 +65,10 @@ array.forEach(v => console.log(v));
 let arr1 = 'leifeng';
 let age1 = '18';
 console.log(`${arr1} was ${age1}`);
+//不加（）输出的是数组,只有第一个 `` 内的内容起作用
+console.log`123456`+`789`;
+//加（）输出的是字符串
+console.log(`123456`+`445`);
 
 //5.Default + Rest + Spread
 //Default 默认参数值,定义函数的时指定参数的默认值
